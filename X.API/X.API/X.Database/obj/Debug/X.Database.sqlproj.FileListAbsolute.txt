@@ -1,0 +1,6 @@
+C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Database\bin\Debug\X.Database.dacpac
+C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Database\bin\Debug\X.Database.dll
+C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Database\bin\Debug\X.Database.pdb
+C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Database\obj\Debug\X.Database.sqlprojAssemblyReference.cache
+C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Database\obj\Debug\X.Database.dll
+C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Database\obj\Debug\X.Database.pdb

@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "X.API\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/1f06938f-1353-4ffb-a34a-00ba57674b5e/resourceGroups/rgDev/providers/Microsoft.Web/sites/xmicroapi"
+}

@@ -1,0 +1,13 @@
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Release\netcoreapp3.1\X.Service.deps.json
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Release\netcoreapp3.1\X.Service.dll
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Release\netcoreapp3.1\X.Service.pdb
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Release\netcoreapp3.1\X.Domain.dll
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Release\netcoreapp3.1\X.Infrastructure.dll
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Release\netcoreapp3.1\X.Infrastructure.pdb
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Release\netcoreapp3.1\X.Domain.pdb
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\obj\Release\netcoreapp3.1\X.Service.csprojAssemblyReference.cache
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\obj\Release\netcoreapp3.1\X.Service.AssemblyInfoInputs.cache
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\obj\Release\netcoreapp3.1\X.Service.AssemblyInfo.cs
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\obj\Release\netcoreapp3.1\X.Service.csproj.CopyComplete
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\obj\Release\netcoreapp3.1\X.Service.dll
+c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\obj\Release\netcoreapp3.1\X.Service.pdb
