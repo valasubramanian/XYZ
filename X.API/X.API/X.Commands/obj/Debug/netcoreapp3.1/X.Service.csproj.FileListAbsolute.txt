@@ -11,3 +11,17 @@ C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Debug\ne
 C:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.csproj.CopyComplete
 c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Domain.dll
 c:\ValaCGI\Learnings\Microservice\ProjectXYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Domain.pdb
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Service.deps.json
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Service.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Service.pdb
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Domain.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Infrastructure.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Infrastructure.pdb
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Domain.pdb
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.csprojAssemblyReference.cache
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.AssemblyInfoInputs.cache
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.AssemblyInfo.cs
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.csproj.CoreCompileInputs.cache
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.csproj.CopyComplete
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.pdb

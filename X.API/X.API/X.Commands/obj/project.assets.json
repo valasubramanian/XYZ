@@ -5759,31 +5759,29 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+      "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
       "projectName": "X.Service",
-      "projectPath": "c:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+      "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
       "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-      "outputPath": "c:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\X.API\\X.API\\X.Commands\\obj\\",
+      "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-              "projectPath": "c:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+            "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
             }
           }
         }
@@ -5829,7 +5827,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
       }
     }
   }
