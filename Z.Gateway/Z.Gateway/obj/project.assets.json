@@ -567,24 +567,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
+      "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
       "projectName": "Z.Gateway",
-      "projectPath": "C:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
+      "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
       "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-      "outputPath": "C:\\ValaCGI\\Learnings\\Microservice\\ProjectXYZ\\Z.Gateway\\Z.Gateway\\obj\\",
+      "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -628,7 +626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
       }
     }
   }
