@@ -1,0 +1,9 @@
+version: '1.0'
+
+services: 
+    xapi:
+        build: 
+            context: /X.API/
+            dockerfile: /X.API/Dockerfile
+            ports: 
+                - "8080:80"
