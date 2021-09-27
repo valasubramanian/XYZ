@@ -2,11 +2,11 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5001
+          "Host": "host.docker.internal",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/gateway/{everything}",
@@ -14,6 +14,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:44381"
+    "BaseUrl": "http://host.docker.internal:8181"
   }
 }

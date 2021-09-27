@@ -40,7 +40,11 @@ namespace X.Service.Queries
 
             public async Task<GetUsersResponse> Handle(GetUsersRequest request, CancellationToken cancellationToken)
             {
-                return new GetUsersResponse() { Result = _db.Users.ToList() };
+                List<User> lstUsers = new List<User>();
+                lstUsers.Add(new User() { UserId = Guid.NewGuid(), UserName = "vala", EmailAddress = "vala@gmail.com" });
+                lstUsers.Add(new User() { UserId = Guid.NewGuid(), UserName = "reka", EmailAddress = "reka@gmail.com" });
+                return new GetUsersResponse() { Result = lstUsers };
+                //return new GetUsersResponse() { Result = _db.Users.ToList() };
             }
         }
     }

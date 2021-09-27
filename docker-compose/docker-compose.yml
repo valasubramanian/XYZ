@@ -3,7 +3,23 @@ version: '1.0'
 services: 
     xapi:
         build: 
-            context: /X.API/
-            dockerfile: /X.API/Dockerfile
+            context: ../X.API/X.API
+            dockerfile: ../X.API/X.API/Dockerfile
             ports: 
                 - "8080:80"
+    zgateway:
+        build: 
+            context: ../Z.Gateway/Z.Gateway
+            dockerfile: ../Z.Gateway/Z.Gateway/Dockerfile
+            ports: 
+                - "8081:81"
+            depends_on: 
+                - xapi
+    app:
+        build: 
+            context: ../app
+            dockerfile: ../app/Dockerfile.prod
+            ports: 
+                - "8082:82"
+            depends_on: 
+                - zgateway

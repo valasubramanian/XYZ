@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj": {}
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj": {}
   },
   "projects": {
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj": {
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
+        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
         "projectName": "Z.Gateway",
-        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
+        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\Z.Gateway.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\obj\\",
+        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Z.Gateway\\Z.Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
