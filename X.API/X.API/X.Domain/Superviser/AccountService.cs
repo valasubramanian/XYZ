@@ -12,35 +12,20 @@ namespace X.Domain.Superviser
 {
     public class AccountService : IAccountService
     {
-        private IAccountRepositary _accountRepositary;
-        public AccountService(IAccountRepositary accountRepositary)
+        private IUserRepositary _userRepositary;
+        public AccountService(IUserRepositary userRepositary)
         {
-            _accountRepositary = accountRepositary;
-        }
-
-        public List<UserModel> GetAllUsers() 
-        {
-            List<UserModel> lstUsers = new List<UserModel>();
-            List<UserEntity> userEntities = _accountRepositary.GetAllUsers();
-            if(userEntities != null && userEntities.Count > 0) {
-                foreach(UserEntity entity in userEntities) {
-                    UserModel model = new UserModel();
-                    model.UserName = entity.UserName;
-                    model.EmailAddress = entity.EmailAddress;
-                    lstUsers.Add(model);
-                }
-            }
-            return lstUsers;
+            _userRepositary = userRepositary;
         }
 
         public int CreateUser(UserModel model)
         {
-            UserEntity entity = _accountRepositary.GetUserByEmail(model.EmailAddress);
+            UserEntity entity = _userRepositary.GetUserByEmail(model.EmailAddress);
             if(entity == null) {
                 entity = new UserEntity();
                 entity.UserName = model.UserName;
                 entity.EmailAddress = model.EmailAddress;
-                return _accountRepositary.CreateUser(entity);
+                return _userRepositary.CreateUser(entity);
             }
             else
                 return -1;

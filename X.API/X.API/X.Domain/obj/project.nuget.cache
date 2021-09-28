@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ihz/ouWQQE8ZYPpimQ0E5en3KcEYeEYqNb9PUq7Foc+z4q7CPkWVuwsVrmFtLWLPgcEGU9ZtjUOgeDWxNbQJkA==",
+  "dgSpecHash": "JPZ2BNhOmkRWkW++6sRKHWgbqYiVPIp/LUVirsn0gjCLl51Uo9oDIjouisuKGX+TEDx8FsWohfmy/1Pp798TJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

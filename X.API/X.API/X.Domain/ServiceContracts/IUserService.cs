@@ -5,8 +5,8 @@ using X.Domain.Models;
 
 namespace X.Domain.ServiceContracts
 {
-    public interface IAccountService
+    public interface IUserService
     {
-        int CreateUser(UserModel model);
+        List<UserModel> GetAllUsers();
     }
 }

@@ -1080,6 +1080,9 @@
         }
       },
       "X.Domain/1.0.0": {
+        "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
+        },
         "runtime": {
           "X.Domain.dll": {}
         }
@@ -1087,6 +1090,7 @@
       "X.Infrastructure/1.0.0": {
         "dependencies": {
           "MediatR": "9.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
           "X.Domain": "1.0.0"

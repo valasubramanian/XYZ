@@ -2603,6 +2603,9 @@
       "X.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/X.Domain.dll": {}
         },
@@ -2615,6 +2618,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "MediatR": "9.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
           "X.Domain": "1.0.0"
@@ -8618,6 +8622,7 @@
       "Microsoft.EntityFrameworkCore >= 5.0.4",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.9.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "X.Domain >= 1.0.0",
       "X.Infrastructure >= 1.0.0",
       "X.Service >= 1.0.0"
     ]
@@ -8629,11 +8634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+      "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
       "projectName": "X.API",
-      "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+      "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
       "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
+      "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8652,6 +8657,9 @@
           "projectReferences": {
             "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
               "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj"
+            },
+            "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+              "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
             },
             "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"

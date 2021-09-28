@@ -16,6 +16,7 @@ using MediatR;
 using X.Service;
 using X.Infrastructure;
 using X.Infrastructure.Context;
+using X.Domain;
 
 namespace X.API
 {
@@ -35,12 +36,16 @@ namespace X.API
 
             services.AddControllers();
 
+            services.AddDomainServices();
+
             services.AddLocator();
 
             services.AddScoped<ILocator, Locator>();
 
             services.AddDbContext<XDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("XDB")));
             // .GetSection("ConnectionStrings").GetValue<string>("XDB")));
+
+            services.AddDataRepositaries();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

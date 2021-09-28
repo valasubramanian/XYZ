@@ -7,7 +7,7 @@ using X.Domain.DataContracts;
 
 namespace X.Infrastructure.Adapters
 {
-    public class UserAdapter : IAccountRepositary
+    public class UserAdapter : IUserRepositary
     {
         private XDbContext _xdbContext;
 

@@ -31,10 +31,10 @@ namespace X.Service.Queries
 
         public class GetUsersCommandHandler : IRequestHandler<GetUsersRequest, GetUsersResponse>
         {
-            private IAccountService _accountService;
-            public GetUsersCommandHandler(IAccountService accountService)
+            private IUserService _userService;
+            public GetUsersCommandHandler(IUserService userService)
             {
-                _accountService = accountService;
+                _userService = userService;
             }
 
             public async Task<GetUsersResponse> Handle(GetUsersRequest request, CancellationToken cancellationToken)
@@ -43,7 +43,7 @@ namespace X.Service.Queries
                 // lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "vala", EmailAddress = "vala@gmail.com" });
                 // lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "reka", EmailAddress = "reka@gmail.com" });
                 // return new GetUsersResponse() { Result = lstUsers };
-                return new GetUsersResponse() { Result = _accountService.GetAllUsers() };
+                return new GetUsersResponse() { Result = _userService.GetAllUsers() };
             }
         }
     }

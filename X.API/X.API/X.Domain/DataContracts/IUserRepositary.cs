@@ -6,7 +6,7 @@ using X.Domain.Entities;
 
 namespace X.Domain.DataContracts
 {
-    public interface IAccountRepositary
+    public interface IUserRepositary
     {
         int CreateUser(UserEntity entity);
         List<UserEntity> GetAllUsers();

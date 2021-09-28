@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\X.Commands\X.Service.csproj" />
     <ProjectReference Include="..\X.Queries\X.Infrastructure.csproj" />
+    <ProjectReference Include="..\X.Domain\X.Domain.csproj" />
   </ItemGroup>
 
 

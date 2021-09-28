@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+LWPELxB1Y3GgOS6XRImVzw+9FELqLsiGkqJWhjNg0dS0I1E+bR5zjCSUmiflyOydKidQzAwBY7QfbpHYdQIg==",
+  "dgSpecHash": "3U0Akm3hfqwnLOkv5QGGdnAmIw69+EyxGmJsH01wyGvQUqGiPJjcENIG5TW1Ist4QSo8gTTcqIgsh6JP+O1IWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+  "projectFilePath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
