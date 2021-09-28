@@ -15,7 +15,6 @@ namespace X.Domain.Superviser
             _userRepositary = userRepositary;
         }
 
-        
         public List<UserModel> GetAllUsers() 
         {
             List<UserModel> lstUsers = new List<UserModel>();

@@ -4,6 +4,7 @@ using System.Reflection;
 using System.Text;
 using X.Domain.ServiceContracts;
 using X.Domain.Superviser;
+using X.Domain.Superviser.Actions;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace X.Domain
@@ -15,6 +16,9 @@ namespace X.Domain
         {
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserAction, CreateUserAction>();
+            services.AddScoped<IUserAction, UpdateUserAction>();
+            services.AddScoped<IUserAction, DeleteUserAction>();
         }
     }
 }
