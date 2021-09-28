@@ -1,5 +1,5 @@
 using System;
-using X.Domain.Models;
+using X.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace X.Infrastructure.Context
@@ -11,11 +11,11 @@ namespace X.Infrastructure.Context
 
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().ToTable("User");
+            modelBuilder.Entity<UserEntity>().ToTable("User");
         }
     }
 }

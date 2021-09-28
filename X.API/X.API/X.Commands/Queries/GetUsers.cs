@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using X.Infrastructure;
 using X.Infrastructure.Context;
 using X.Domain.Models;
+using X.Domain.ServiceContracts;
 
 namespace X.Service.Queries
 {
@@ -25,26 +26,24 @@ namespace X.Service.Queries
 
             public string[] Warnings { get; set; }
 
-            public List<User> Result { get; set; }
-
+            public List<UserModel> Result { get; set; }
         }
 
         public class GetUsersCommandHandler : IRequestHandler<GetUsersRequest, GetUsersResponse>
         {
-            private XDbContext _db;
-
-            public GetUsersCommandHandler(XDbContext db)
+            private IAccountService _accountService;
+            public GetUsersCommandHandler(IAccountService accountService)
             {
-                _db = db;
+                _accountService = accountService;
             }
 
             public async Task<GetUsersResponse> Handle(GetUsersRequest request, CancellationToken cancellationToken)
             {
-                List<User> lstUsers = new List<User>();
-                lstUsers.Add(new User() { UserId = Guid.NewGuid(), UserName = "vala", EmailAddress = "vala@gmail.com" });
-                lstUsers.Add(new User() { UserId = Guid.NewGuid(), UserName = "reka", EmailAddress = "reka@gmail.com" });
-                return new GetUsersResponse() { Result = lstUsers };
-                //return new GetUsersResponse() { Result = _db.Users.ToList() };
+                // List<UserModel> lstUsers = new List<UserModel>();
+                // lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "vala", EmailAddress = "vala@gmail.com" });
+                // lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "reka", EmailAddress = "reka@gmail.com" });
+                // return new GetUsersResponse() { Result = lstUsers };
+                return new GetUsersResponse() { Result = _accountService.GetAllUsers() };
             }
         }
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace X.Domain.Models
+namespace X.Domain.Entities
 {
     /*
         CREATE TABLE [dbo].[User]
@@ -13,7 +13,7 @@ namespace X.Domain.Models
         )
         INSERT INTO [dbo].[User] VALUES (NEWID(), 'Vala', 'vala@gmail.com')
     */
-    public class User
+    public class UserEntity
     {
         public Guid UserId {get; set;}
 

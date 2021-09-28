@@ -2224,6 +2224,7 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "X.Domain": "1.0.0",
           "X.Infrastructure": "1.0.0"
         },
         "runtime": {
