@@ -14,7 +14,7 @@ namespace X.Domain.Superviser.Actions
             _userRepositary = userRepositary;
         }
 
-        public UserAction userAction => UserAction.Create;
+        public UserAction Action => UserAction.Create;
 
         public int PerformAction(UserModel userModel)
         {

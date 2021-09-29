@@ -5,7 +5,7 @@ namespace X.Domain.ServiceContracts
 {
     public interface IUserAction
     {
-        UserAction userAction {get;}
+        UserAction Action {get;}
         int PerformAction(UserModel userModel);
     }
 }

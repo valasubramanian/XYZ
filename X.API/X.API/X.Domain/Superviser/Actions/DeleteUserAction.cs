@@ -14,7 +14,7 @@ namespace X.Domain.Superviser.Actions
             _userRepositary = userRepositary;
         }
 
-        public UserAction userAction => UserAction.Delete;
+        public UserAction Action => UserAction.Delete;
 
         public int PerformAction(UserModel userModel)
         {

@@ -32,7 +32,7 @@ namespace X.Service.Queries
         public class GetUsersCommandHandler : IRequestHandler<GetUsersRequest, GetUsersResponse>
         {
             private IUserService _userService;
-            public GetUsersCommandHandler(IUserService userService, IUserAction userAction)
+            public GetUsersCommandHandler(IUserService userService)
             {
                 _userService = userService;
             }

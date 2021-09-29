@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using X.Infrastructure;
+using X.Domain;
 using X.Domain.ServiceContracts;
 using X.Domain.Models;
 
@@ -35,10 +36,10 @@ namespace X.Service.Commands
 
         public class CreateUserCommandHandler : IRequestHandler<CreateUserRequest, CreateUserResponse>
         {
-            private IAccountService _accountService;
-            public CreateUserCommandHandler(IAccountService accountService)
+            private IUserService _userService;
+            public CreateUserCommandHandler(IUserService userService)
             {
-                _accountService = accountService;
+                _userService = userService;
             }
 
             public async Task<CreateUserResponse> Handle(CreateUserRequest request, CancellationToken cancellationToken)
@@ -48,7 +49,7 @@ namespace X.Service.Commands
                     EmailAddress = request.EmailAddress
                 };
 
-                return new CreateUserResponse() { Result = _accountService.CreateUser(model) };
+                return new CreateUserResponse() { Result = _userService.PerformAction(model, UserAction.Create) };
             }
         }
     }
