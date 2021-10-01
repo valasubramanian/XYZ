@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XLMV0Iqv+pzV77uF36Ejji/YbQh3E9d733P/leB51RZk3midXH5PQrhDSL2cWyDiU7QEEtaWoTYpVfQPGkm9jA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Azure.Function\\Functions\\Functions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
