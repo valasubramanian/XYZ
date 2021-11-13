@@ -24,6 +24,7 @@ namespace Azure.Functions
             if(newData != null && newData.Length > 0)
             {
                 bool isCompleted = WriteFileData(books, newData, log);
+
                 if(isCompleted)
                     log.LogInformation($"ProcessJsonDataToNoSql FileName:{name}.json completed");
             }
@@ -48,7 +49,7 @@ namespace Azure.Functions
             try {
                 foreach (var book in newBooks)
                 {
-                   books.AddAsync(book);
+                    books.AddAsync(book);
                 }
                 return true;
             }
