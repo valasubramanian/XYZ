@@ -9,7 +9,7 @@ using FFMediaToolkit.Graphics;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 
-namespace Azure.Function
+namespace Azure.Functions
 {
     public static class GenerateVideoThumbnail
     {

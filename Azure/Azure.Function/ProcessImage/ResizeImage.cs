@@ -7,7 +7,7 @@ using ImageResizer;
 using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace Azure.Function
+namespace Azure.Functions
 {
     public static class ResizeImage
     {
