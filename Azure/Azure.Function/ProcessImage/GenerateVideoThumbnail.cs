@@ -20,6 +20,8 @@ namespace Azure.Functions
         {
             log.LogInformation($"GenerateVideoThumbnail FileName:{name} started");
 
+            //2021-11-21T14:43:45.056 [Error] Cannot found the default FFmpeg directory.On Windows you have to set "FFmpegLoader.FFmpegPath" with full path to the directory containing FFmpeg shared build ".dll" filesFor more informations please see https://github.com/radek-k/FFMediaToolkit#setup
+
             try
             {
                 using(var file = MediaFile.Open(video))
