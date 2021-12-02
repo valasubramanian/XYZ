@@ -15,7 +15,7 @@ namespace Azure.Functions
     {
         [FunctionName("GetSignalRConnectionFunction")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route="GetSignalRConnection")] HttpRequest req,
             [SignalRConnectionInfo(HubName="stocks", ConnectionStringSetting="AzureSignalRConnection")] SignalRConnectionInfo connectionInfo,
             ILogger log)
         {

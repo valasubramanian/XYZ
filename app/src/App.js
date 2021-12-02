@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import Home from './home/home'
+import Stocks from './stocks/stocks'
 
 export default function App() {
   return (
@@ -20,6 +21,9 @@ export default function App() {
               <li>
                 <Link to="/users">Users</Link>
               </li>
+			   <li>
+                <Link to="/stocks">Users</Link>
+              </li>
             </ul>
           </nav>
           <header className="App-header">
@@ -30,6 +34,9 @@ export default function App() {
                 </Route>
                 <Route path="/users">
                   <Users />
+                </Route>
+				<Route path="/stocks">
+                  <Stocks />
                 </Route>
                 <Route path="/">
                   <Home />
