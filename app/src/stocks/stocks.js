@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import config from "../appsettings.json";
 import { Table } from "reactable";
-import { HubConnectionBuilder } from "@microsoft/signalr";
+import { HubConnectionBuilder, HttpTransportType } from "@microsoft/signalr";
 
 const Stocks = (props) => {
 
@@ -19,35 +19,55 @@ const Stocks = (props) => {
       })
       .then(response => response.json())
       .then(response => {
-        console.log(response);
         const options = {
             accessTokenFactory: () => response.accessToken
         }
+
         let connection = new HubConnectionBuilder()
                               .withUrl(response.url, options)
-                              .build();
+                              .build(HttpTransportType.None);
 
-        connection.start().then(() => console.log('connection started'));
+        connection.on('stocksUpdated', OnStocksUpdated);
+        connection.onclose(() => console.log('connection closed'));
+        connection.start({ withCredentials: false })
+                    .then(() => console.log('connection started'))
+                    .catch(err => { console.log(err); });
+
         setConnection(connection);
-
-      // const socket = new SignalR.HubConnectionBuilder()
-      //     .withUrl(response.data.url, options)
-      //     .build(SignalR.HttpTransportType.None)
-
-      // connection.on('OnNewEvent', ProcessMyEvent);
-      // connection.onclose(() => console.log('disconnected'));
-      // console.log('connecting...');
-
-      // connection.start({ withCredentials: false })
-      //     .then(() => console.log('ready...'))
-      //     .catch(console.error);
-
       })
       .catch(err => {
         console.log(err);
       });      
     }
-  });
+
+    return () => {
+      if(connection) {
+        console.log('connection closed on page close');
+        connection.stop();
+      }
+    };
+  }, []);
+
+  const OnStocksUpdated = (response) => {
+    console.log('Stocks Updated');
+    if(response && response.length > 0) {
+      if(stocksData && stocksData.length > 0) {
+        let _stocks = stocksData;
+        let oldStock = _stocks.filter(f => f.id === response[0].id);
+        if(oldStock && oldStock.length > 0) {
+          _stocks.forEach(item => {
+            if(item.id === oldStock[0].id)
+              item.stockPrice = oldStock[0].stockPrice;
+          });
+        }
+        else
+          _stocks.push(response[0]);
+        setStocksData(_stocks);
+      }
+      else
+        setStocksData(response);
+    }
+  }
 
   return (
       <>
