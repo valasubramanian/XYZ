@@ -30,6 +30,8 @@ namespace Azure.Messaging
             //services.AddMvc();
             services.AddControllers();
             services.AddScoped<IQueueService, QueueService>();
+            services.AddScoped<IServiceBusQueue, ServiceBusQueue>();
+            services.AddScoped<IServiceBusTopic, ServiceBusTopic>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Azure\\Azure.Messaging\\Azure.ConsoleClient\\Azure.ConsoleClient.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Azure\\Azure.Messaging\\Azure.ConsoleClient\\Azure.ConsoleClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Azure\\Azure.Messaging\\Azure.ConsoleClient\\Azure.ConsoleClient.csproj",
+        "projectName": "Azure.ConsoleClient",
+        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Azure\\Azure.Messaging\\Azure.ConsoleClient\\Azure.ConsoleClient.csproj",
+        "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Azure\\Azure.Messaging\\Azure.ConsoleClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "Azure.Storage.Common": {
+              "target": "Package",
+              "version": "[12.9.0, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
