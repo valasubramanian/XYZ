@@ -1,3 +1,4 @@
+using System.Threading;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,13 @@ using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using MediatR;
 using X.Service;
+using X.Service.ServiceBusTopicHandlers;
 using X.Infrastructure;
 using X.Infrastructure.Context;
 using X.Domain;
+using XYZ.Framework.Azure.ServiceBus;
+using XYZ.Framework.Azure.ServiceBus.Managers;
+using XYZ.Framework.Azure.ServiceBus.Topics;
 
 namespace X.API
 {
@@ -46,6 +51,10 @@ namespace X.API
             // .GetSection("ConnectionStrings").GetValue<string>("XDB")));
 
             services.AddDataRepositaries();
+
+            services.AddAzureServiceBus(Configuration);
+
+            services.AddScoped<DeliveryStatusHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -66,6 +75,14 @@ namespace X.API
             {
                 endpoints.MapControllers();
             });
+
+            RegisterServiceBusSubscription(app);
+        }
+
+        private void RegisterServiceBusSubscription(IApplicationBuilder app)
+        {
+            var subscriptionManager = app.ApplicationServices.GetRequiredService<ISubscriptionManager>();
+            subscriptionManager.SubscribeTopic<DeliveryStatusTopic, DeliveryStatusHandler>();
         }
     }
 }

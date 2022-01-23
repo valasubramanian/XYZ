@@ -12,12 +12,15 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\X.Commands\X.Service.csproj" />
     <ProjectReference Include="..\X.Queries\X.Infrastructure.csproj" />
     <ProjectReference Include="..\X.Domain\X.Domain.csproj" />
+    <ProjectReference Include="..\..\..\XYZ.Framework\XYZ.Framework\XYZ.Framework.csproj" />
   </ItemGroup>
 
 
