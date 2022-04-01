@@ -49,3 +49,4 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.UI\XYZ.UI\bin\Debug\netcoreap
 C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.UI\XYZ.UI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.UI\XYZ.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.UI\XYZ.UI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.UI\XYZ.UI\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index.cshtml.g.cs

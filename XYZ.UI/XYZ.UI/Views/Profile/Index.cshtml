@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="text-center">
+    <h1 class="display-4">My Profile</h1> 
+    @if(ViewBag.IsAuthenticated)   
+    {
+        <a class="" asp-area="" asp-controller="Profile" asp-action="Logout">Log Out</a>
+    }
+</div>

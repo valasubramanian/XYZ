@@ -38,10 +38,11 @@ namespace XYZ.UI
             .AddOpenIdConnect(OpenIdConnectDefaults.AuthenticationScheme, options =>
             {
                 options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.Authority = "https://localhost:5001";
                 options.ClientId = "client-id-112317298-interactive";
                 options.ClientSecret = "49C1A7E1-0C79-4A89-A3D6-A37998FB86B0";
-                options.Authority = "https://localhost:5001";
                 options.SaveTokens = true;
+                options.UsePkce = true;
                 options.RequireHttpsMetadata = false;
                 options.ResponseType = "code";
                 options.Scope.Add("openid");

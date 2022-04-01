@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj": {}
+    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj": {
+    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj",
+        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj",
         "projectName": "XYZ.UI",
-        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj",
+        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\obj\\",
+        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

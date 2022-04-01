@@ -1,5 +1,6 @@
 ﻿using IdentityServer4.Models;
 using System.Collections.Generic;
+using IdentityServer4;
 
 namespace XYZ.Identity
 {
@@ -35,12 +36,20 @@ namespace XYZ.Identity
                 new Client
                 {
                     ClientId = "client-id-112317298-interactive",
-                    ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
+                    ClientSecrets = 
+                    { 
+                        new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) 
+                    },
                     AllowedGrantTypes = GrantTypes.Code,
+                    RequirePkce = true,
                     RedirectUris = { "https://localhost:5000/signin-oidc" },
                     FrontChannelLogoutUri = "https://localhost:5000/signout-oidc",
                     PostLogoutRedirectUris = { "https://localhost:5000/signout-callback-oidc" },
-                    AllowedScopes = { "openid", "profile", "scope2" }
+                    AllowedScopes = 
+                    { 
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile
+                    }
                 }
             };
     }

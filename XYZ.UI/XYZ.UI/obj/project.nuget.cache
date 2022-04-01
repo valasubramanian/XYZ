@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uSEi4xW6A3Mk0BBa9FRnpoQG4g2jwvTnyRZhKPS/AI9lloNnTKX0+I0AwEZadne/8gh1PVg/Sp3BpBUz7mREOg==",
+  "dgSpecHash": "hFiLYJWlkt5ldB9MbCovwRX37svetokEDboUE3HOQup3+4fLiMRKbz9F98qyBGkWxVq5TBVIVuO/kRlVH9iYeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj",
+  "projectFilePath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.UI\\XYZ.UI\\XYZ.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
