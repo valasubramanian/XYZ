@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,6 +13,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Newtonsoft.Json;
+using IdentityModel.Client;
 
 namespace XYZ.UI.Controllers
 {
@@ -19,17 +22,21 @@ namespace XYZ.UI.Controllers
     public class ProfileController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IHttpClientFactory _httpClientFactory;
 
-        public ProfileController(ILogger<HomeController> logger)
+        public ProfileController(ILogger<HomeController> logger, IHttpClientFactory httpClientFactory)
         {
             _logger = logger;
+            _httpClientFactory = httpClientFactory;
         }
 
         public async Task<IActionResult> Index()
         {
-            ViewBag.IdToken = await GetIdentityInformation();
+            ViewBag.IdToken = await GetIdToken();
             ViewBag.IsAuthenticated = HttpContext.User.Identity.IsAuthenticated;
             ViewBag.Claims = HttpContext.User.Claims;
+            ViewBag.AllClaims = await GetAllClaimsFromUserEndpoint();
+            GetUsersFromApi();
             return View();
         }
 
@@ -39,10 +46,36 @@ namespace XYZ.UI.Controllers
             await HttpContext.SignOutAsync(OpenIdConnectDefaults.AuthenticationScheme);
         }
 
-        private async Task<string> GetIdentityInformation()
+        private async Task<string> GetIdToken()
         {
             var idToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.IdToken);
             return idToken;
+        }
+
+        private async Task<string> GetAccessToken()
+        {
+            var accessToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
+            return accessToken;
+        }
+
+        private async Task<List<Claim>> GetAllClaimsFromUserEndpoint()
+        {
+            return null;
+        }
+
+        private async void GetUsersFromApi()
+        {
+            string accessToken = await GetAccessToken();
+            var client = _httpClientFactory.CreateClient("X.API");
+            client.SetBearerToken(accessToken);
+
+            var buffer = System.Text.Encoding.UTF8.GetBytes("{ 'UserId': '1' }");
+            var byteContent = new ByteArrayContent(buffer);
+            var response = await client.PostAsync("/api/getusers", byteContent);
+            if (response.IsSuccessStatusCode)
+            {
+               var responseMessage = await response.Content.ReadAsStringAsync();
+            }
         }
     }
 }

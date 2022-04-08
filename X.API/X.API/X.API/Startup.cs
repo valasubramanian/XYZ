@@ -22,6 +22,10 @@ using X.Domain;
 using XYZ.Framework.Azure.ServiceBus;
 using XYZ.Framework.Azure.ServiceBus.Managers;
 using XYZ.Framework.Azure.ServiceBus.Topics;
+using IdentityServer4.AccessTokenValidation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
 
 namespace X.API
 {
@@ -40,6 +44,25 @@ namespace X.API
             services.AddMvc();
 
             services.AddControllers();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                    .AddJwtBearer(options => {
+                        options.Authority = "https://localhost:5001";
+                        options.Audience = "x.api";
+                        options.RequireHttpsMetadata = true;
+                        options.TokenValidationParameters = new TokenValidationParameters
+                        {
+                            ValidateAudience = true
+                        };
+                    });
+            
+            services.AddAuthorization(options =>
+            {
+                options.DefaultPolicy = 
+                    new AuthorizationPolicyBuilder(JwtBearerDefaults.AuthenticationScheme)
+                    .RequireAuthenticatedUser()
+                    .Build();
+            });
 
             services.AddDomainServices();
 
@@ -69,6 +92,7 @@ namespace X.API
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

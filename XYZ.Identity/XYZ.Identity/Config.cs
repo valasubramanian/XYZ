@@ -1,4 +1,5 @@
-﻿using IdentityServer4.Models;
+﻿using System.Data.Common;
+using IdentityServer4.Models;
 using System.Collections.Generic;
 using IdentityServer4;
 
@@ -11,28 +12,22 @@ namespace XYZ.Identity
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
+                new IdentityResources.Email(),
+                new IdentityResource("role", "roles of user", new List<string>() { "role" })
             };
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-                new ApiScope("scope1"),
-                new ApiScope("scope2"),
+                new ApiScope("x.api", "X.API"),
+                new ApiScope("y.api", "Y.API")
             };
 
         public static IEnumerable<Client> Clients =>
             new Client[]
             {
-                // m2m client credentials flow client
-                new Client
-                {
-                    ClientId = "client-id-453434-m2m",
-                    ClientName = "Client Credentials Client",
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
-                    AllowedScopes = { "scope1" }
-                },
                 // interactive client using code flow + pkce
+                // xyz.ui -> x.api
                 new Client
                 {
                     ClientId = "client-id-112317298-interactive",
@@ -48,8 +43,22 @@ namespace XYZ.Identity
                     AllowedScopes = 
                     { 
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "role",
+                        "x.api",
+                        "y.api"
                     }
+                },
+                // m2m client credentials flow client
+                // x.api -> y.api
+                new Client
+                {
+                    ClientId = "client-id-453434-m2m",
+                    ClientName = "Client Credentials Client",
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
+                    AllowedScopes = { "y.api" }
                 }
             };
     }

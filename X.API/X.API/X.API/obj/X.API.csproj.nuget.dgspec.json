@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {}
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
         "projectName": "X.API",
-        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
+        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -28,17 +28,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj"
               },
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               },
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
               },
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
               }
             }
           }
@@ -52,6 +52,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -71,6 +75,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.17.0, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -103,14 +111,14 @@
         }
       }
     },
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
         "projectName": "X.Service",
-        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
+        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -127,14 +135,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               },
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
               },
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
               }
             }
           }
@@ -192,14 +200,14 @@
         }
       }
     },
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
         "projectName": "X.Domain",
-        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
+        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -251,14 +259,14 @@
         }
       }
     },
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
         "projectName": "X.Infrastructure",
-        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\obj\\",
+        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -275,8 +283,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               }
             }
           }
@@ -334,14 +342,14 @@
         }
       }
     },
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
         "projectName": "XYZ.Framework",
-        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
+        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

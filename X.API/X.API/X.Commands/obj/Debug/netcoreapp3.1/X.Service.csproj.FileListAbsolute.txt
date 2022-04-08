@@ -16,8 +16,10 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Service.pdb
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Domain.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Infrastructure.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\XYZ.Framework.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Infrastructure.pdb
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\X.Domain.pdb
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\XYZ.Framework.pdb
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.csprojAssemblyReference.cache
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.AssemblyInfoInputs.cache
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.AssemblyInfo.cs
@@ -25,5 +27,3 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.csproj.CopyComplete
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\obj\Debug\netcoreapp3.1\X.Service.pdb
-c:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\XYZ.Framework.dll
-c:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Commands\bin\Debug\netcoreapp3.1\XYZ.Framework.pdb

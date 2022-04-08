@@ -2,16 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Net.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Http;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.IdentityModel.Tokens;
 
 namespace XYZ.UI
 {
@@ -29,12 +32,27 @@ namespace XYZ.UI
         {
             services.AddControllersWithViews();
 
+            services.AddHttpClient("IdentityServerClient", client => {
+                client.BaseAddress = new Uri("https://localhost:5001");
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Add("Accept", "application/json");
+            });
+
+            services.AddHttpClient("X.API", client => {
+                client.BaseAddress = new Uri("https://localhost:8080");
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Add("Accept", "application/json");
+            });
+
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
             })
-            .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
+            {
+                options.AccessDeniedPath = "/Authorization/AccessDenied";
+            })
             .AddOpenIdConnect(OpenIdConnectDefaults.AuthenticationScheme, options =>
             {
                 options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -45,8 +63,20 @@ namespace XYZ.UI
                 options.UsePkce = true;
                 options.RequireHttpsMetadata = false;
                 options.ResponseType = "code";
-                options.Scope.Add("openid");
-                options.Scope.Add("profile");
+                options.Scope.Add("role");
+                options.Scope.Add("x.api");
+                options.ClaimActions.DeleteClaim("sid");
+                options.ClaimActions.DeleteClaim("idp");
+                options.ClaimActions.DeleteClaim("s_hash");
+                options.ClaimActions.DeleteClaim("auth_time");
+                options.ClaimActions.MapJsonKey("role", "role", "role");
+                options.ClaimActions.MapUniqueJsonKey("given_name", "given_name");
+                options.GetClaimsFromUserInfoEndpoint = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    NameClaimType = "given_name",
+                    RoleClaimType = "role"
+                };
             });
         }
 

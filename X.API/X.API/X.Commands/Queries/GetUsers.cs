@@ -39,11 +39,11 @@ namespace X.Service.Queries
 
             public async Task<GetUsersResponse> Handle(GetUsersRequest request, CancellationToken cancellationToken)
             {
-                // List<UserModel> lstUsers = new List<UserModel>();
-                // lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "vala", EmailAddress = "vala@gmail.com" });
-                // lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "reka", EmailAddress = "reka@gmail.com" });
-                // return new GetUsersResponse() { Result = lstUsers };
-                return new GetUsersResponse() { Result = _userService.GetAllUsers() };
+                List<UserModel> lstUsers = new List<UserModel>();
+                lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "vala", EmailAddress = "vala@gmail.com" });
+                lstUsers.Add(new UserModel() { UserId = Guid.NewGuid(), UserName = "reka", EmailAddress = "reka@gmail.com" });
+                return new GetUsersResponse() { Result = lstUsers };
+                //return new GetUsersResponse() { Result = _userService.GetAllUsers() };
             }
         }
     }
