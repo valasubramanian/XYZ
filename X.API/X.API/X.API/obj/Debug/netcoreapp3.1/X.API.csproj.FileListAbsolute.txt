@@ -320,3 +320,5 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netco
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netcoreapp3.1\X.API.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netcoreapp3.1\X.API.pdb
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netcoreapp3.1\X.API.genruntimeconfig.cache
+c:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+c:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll

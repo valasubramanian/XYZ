@@ -19,6 +19,7 @@ namespace X.Domain
             services.AddScoped<IUserAction, CreateUserAction>();
             services.AddScoped<IUserAction, UpdateUserAction>();
             services.AddScoped<IUserAction, DeleteUserAction>();
+            services.AddScoped<IExternalService, ExternalService>();
         }
     }
 }

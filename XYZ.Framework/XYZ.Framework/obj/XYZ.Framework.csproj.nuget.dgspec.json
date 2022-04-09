@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {}
+    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
         "projectName": "XYZ.Framework",
-        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
+        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

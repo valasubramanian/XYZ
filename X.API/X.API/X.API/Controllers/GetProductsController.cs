@@ -5,16 +5,17 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using X.Service.Commands;
 using Microsoft.AspNetCore.Authorization;
+using X.Service.Queries;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace X.API.Controllers
 {
-    // {"orderId":"0f835d4e-4d20-4cb0-b724-a21b3fff4d22","orderStatus":"NEW"}
+    // {"UserId":1}
     [ApiController]
     [Authorize(Roles = "superadmin, admin")]
-    public class PlaceOrderController : ApiController<PlaceOrderContainer.PlaceOrderRequest, PlaceOrderContainer.PlaceOrderResponse>
+    public class GetProductsController : ApiController<GetProductsContainer.GetProductsRequest, GetProductsContainer.GetProductsResponse>
     {
-        public PlaceOrderController(IMediator mediator) : base(mediator) { }
+        public GetProductsController(IMediator mediator) : base(mediator) { }
     }
 }

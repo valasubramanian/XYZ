@@ -45,6 +45,18 @@ namespace X.API
 
             services.AddControllers();
 
+            services.AddHttpClient("IdentityServerClient", client => {
+                client.BaseAddress = new Uri("https://localhost:5001");
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Add("Accept", "application/json");
+            });
+
+            services.AddHttpClient("Y.API", client => {
+                client.BaseAddress = new Uri("https://localhost:8083");
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Add("Accept", "application/json");
+            });
+
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                     .AddJwtBearer(options => {
                         options.Authority = "https://localhost:5001";
