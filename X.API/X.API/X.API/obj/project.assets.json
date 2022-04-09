@@ -9719,11 +9719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+      "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
       "projectName": "X.API",
-      "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+      "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
       "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
+      "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

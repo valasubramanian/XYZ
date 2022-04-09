@@ -41,6 +41,7 @@ namespace XYZ.Identity
 
             // in-memory, code config
             builder.AddInMemoryIdentityResources(Config.IdentityResources);
+            builder.AddInMemoryApiResources(Config.ApiResources);
             builder.AddInMemoryApiScopes(Config.ApiScopes);
             builder.AddInMemoryClients(Config.Clients);
 

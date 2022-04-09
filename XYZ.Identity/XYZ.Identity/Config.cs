@@ -1,4 +1,5 @@
-﻿using System.Data.Common;
+﻿using System.Security.Claims;
+using System.Data.Common;
 using IdentityServer4.Models;
 using System.Collections.Generic;
 using IdentityServer4;
@@ -14,6 +15,18 @@ namespace XYZ.Identity
                 new IdentityResources.Profile(),
                 new IdentityResources.Email(),
                 new IdentityResource("role", "roles of user", new List<string>() { "role" })
+            };
+        public static IEnumerable<ApiResource> ApiResources =>
+            new ApiResource[]
+            {
+                new ApiResource("x.api", "X.API", new [] { "role" })
+                {
+                     Scopes = new [] { "x.api" }
+                },
+                new ApiResource("y.api", "Y.API", new [] { "role" })
+                {
+                     Scopes = new [] { "y.api" }
+                }
             };
 
         public static IEnumerable<ApiScope> ApiScopes =>

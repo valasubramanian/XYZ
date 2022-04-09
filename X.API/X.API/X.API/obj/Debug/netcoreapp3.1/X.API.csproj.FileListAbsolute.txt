@@ -171,8 +171,12 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netco
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Azure.Messaging.ServiceBus.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Azure.Storage.Queues.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\IdentityModel.AspNetCore.OAuth2Introspection.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\IdentityServer4.AccessTokenValidation.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.ServiceBus.dll
@@ -316,7 +320,3 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netco
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netcoreapp3.1\X.API.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netcoreapp3.1\X.API.pdb
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\obj\Debug\netcoreapp3.1\X.API.genruntimeconfig.cache
-C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\IdentityModel.dll
-C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\IdentityModel.AspNetCore.OAuth2Introspection.dll
-C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\IdentityServer4.AccessTokenValidation.dll
-C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
