@@ -64,7 +64,7 @@ namespace XYZ.UI
                 options.RequireHttpsMetadata = false;
                 options.ResponseType = "code";
                 options.Scope.Add("role");
-                options.Scope.Add("x.api");
+                options.Scope.Add("x.api.access");
                 options.ClaimActions.DeleteClaim("sid");
                 options.ClaimActions.DeleteClaim("idp");
                 options.ClaimActions.DeleteClaim("s_hash");

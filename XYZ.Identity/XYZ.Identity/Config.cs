@@ -21,19 +21,19 @@ namespace XYZ.Identity
             {
                 new ApiResource("x.api", "X.API", new [] { "role" })
                 {
-                     Scopes = new [] { "x.api" }
+                     Scopes = new [] { "x.api.access" }
                 },
                 new ApiResource("y.api", "Y.API", new [] { "role" })
                 {
-                     Scopes = new [] { "y.api" }
+                     Scopes = new [] { "y.api.access" }
                 }
             };
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-                new ApiScope("x.api", "X.API"),
-                new ApiScope("y.api", "Y.API")
+                new ApiScope("x.api.access", "Access X.API"),
+                new ApiScope("y.api.access", "Access Y.API")
             };
 
         public static IEnumerable<Client> Clients =>
@@ -59,8 +59,8 @@ namespace XYZ.Identity
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email,
                         "role",
-                        "x.api",
-                        "y.api"
+                        "x.api.access",
+                        "y.api.access"
                     }
                 },
                 // m2m client credentials flow client
@@ -68,10 +68,10 @@ namespace XYZ.Identity
                 new Client
                 {
                     ClientId = "client-id-453434-m2m",
-                    ClientName = "Client Credentials Client",
+                    ClientName = "Client Credentials Client X to Y",
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
-                    AllowedScopes = { "y.api" }
+                    AllowedScopes = { "y.api.access" }
                 }
             };
     }

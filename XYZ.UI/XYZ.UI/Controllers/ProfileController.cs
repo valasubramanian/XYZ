@@ -71,11 +71,11 @@ namespace XYZ.UI.Controllers
 
             var buffer = System.Text.Encoding.UTF8.GetBytes("{ 'UserId': '1' }");
             var byteContent = new ByteArrayContent(buffer);
-            // var response = await client.PostAsync("/api/getusers", byteContent);
-            // if (response.IsSuccessStatusCode)
-            // {
-            //    var responseMessage = await response.Content.ReadAsStringAsync();
-            // }
+            var response = await client.PostAsync("/api/getusers", byteContent);
+            if (response.IsSuccessStatusCode)
+            {
+               var responseMessage = await response.Content.ReadAsStringAsync();
+            }
         }
     }
 }
