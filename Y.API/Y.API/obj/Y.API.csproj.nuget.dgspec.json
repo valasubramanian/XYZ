@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj": {}
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj": {
+    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj",
+        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj",
         "projectName": "Y.API",
-        "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj",
+        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\Y.API.csproj",
         "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\obj\\",
+        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\Y.API\\Y.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -39,9 +39,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.23, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

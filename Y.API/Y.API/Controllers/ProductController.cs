@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace Y.API.Controllers
 {
     [ApiController]
+    [Route("api/[controller]")]
     [Authorize]
-    [Route("[controller]")]
     public class ProductController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

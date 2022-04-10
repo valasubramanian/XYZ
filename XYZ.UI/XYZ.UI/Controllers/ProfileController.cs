@@ -14,7 +14,7 @@ using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Newtonsoft.Json;
-using IdentityModel.Client;
+using IdentityModel.Client; 
 
 namespace XYZ.UI.Controllers
 {
@@ -36,7 +36,8 @@ namespace XYZ.UI.Controllers
             ViewBag.IsAuthenticated = HttpContext.User.Identity.IsAuthenticated;
             ViewBag.Claims = HttpContext.User.Claims;
             ViewBag.AllClaims = await GetAllClaimsFromUserEndpoint();
-            GetUsersFromApi();
+            //GetUsersFromApi();
+            GetProductsFromApi();
             return View();
         }
 
@@ -72,6 +73,21 @@ namespace XYZ.UI.Controllers
             var buffer = System.Text.Encoding.UTF8.GetBytes("{ 'UserId': '1' }");
             var byteContent = new ByteArrayContent(buffer);
             var response = await client.PostAsync("/api/getusers", byteContent);
+            if (response.IsSuccessStatusCode)
+            {
+               var responseMessage = await response.Content.ReadAsStringAsync();
+            }
+        }
+
+        private async void GetProductsFromApi()
+        {
+            string accessToken = await GetAccessToken();
+            var client = _httpClientFactory.CreateClient("X.API");
+            client.SetBearerToken(accessToken);
+
+            var buffer = System.Text.Encoding.UTF8.GetBytes("{ 'UserId': '1' }");
+            var byteContent = new ByteArrayContent(buffer);
+            var response = await client.PostAsync("/api/GetProducts", byteContent);
             if (response.IsSuccessStatusCode)
             {
                var responseMessage = await response.Content.ReadAsStringAsync();

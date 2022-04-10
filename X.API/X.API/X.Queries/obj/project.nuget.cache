@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NrlRCJO6OPkFdYE6B86T6ed8588eOXUTUsfxVeUPSfs2pca1gZZRlJWFO9mR+k3LjrjjWZj0FwGmteG0iGH6ng==",
+  "dgSpecHash": "pj00n/2O12DnPejdtox3Jb5q2WCqCtTAcI0XNuziNxqRUR5l8/G/dZJIE73ksaPmxogsVYzcCacoqheibPLoVQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

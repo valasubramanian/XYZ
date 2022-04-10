@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kF4xqHjC9SWZ+XUIMS5RnTIb7tEfuDtGu5jPJ4jh+N367xNNb5jy8wf7SLXN2vRxtfAfDK/QzayfodahX0xxvg==",
+  "dgSpecHash": "ApJbSxwgBE6RgRM6w77W4qZrmSQl4eH37BJJqZqjlhpMYFAfJ1jEwnJLzelrp8C+j9nMLp+Y0JV8120XrLfZpg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+  "projectFilePath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\azure.core\\1.21.0\\azure.core.1.21.0.nupkg.sha512",
     "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",

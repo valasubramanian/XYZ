@@ -112,3 +112,11 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3
 C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 c:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\obj\Debug\netcoreapp3.1\Y.API.csproj.CopyComplete
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\valasubramanian.sunm\source\repos\XYZ\Y.API\Y.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll

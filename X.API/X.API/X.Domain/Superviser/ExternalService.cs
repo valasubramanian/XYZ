@@ -24,7 +24,7 @@ namespace X.Domain.Superviser
             _httpClientFactory = httpClientFactory;
         }
 
-        private async Task<string> GetAccessToken()
+        private async Task<string> GetClientCredentialsAccessToken()
         {
             string accessToken = "";
             var idpClient = _httpClientFactory.CreateClient("IdentityServerClient");
@@ -50,11 +50,11 @@ namespace X.Domain.Superviser
 
         public async Task<List<ProductModel>> GetAllProducts()
         {
-            string accessToken = await GetAccessToken();
+            string accessToken = await GetClientCredentialsAccessToken();
             var client = _httpClientFactory.CreateClient("Y.API");
             client.SetBearerToken(accessToken);
 
-            var response = await client.GetAsync("/api/getproducts");
+            var response = await client.GetAsync("/api/product");
             if (response.IsSuccessStatusCode)
             {
                var responseMessage = await response.Content.ReadAsStringAsync();
