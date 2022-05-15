@@ -1,0 +1,58 @@
+// Use Thread.Sleep when you want to block the current thread.
+// Use Task.Delay when you want a logical delay without blocking the current thread.
+// Using Task.Delay.Wait on an uncompleted task is indeed blocking the thread until the task completes.
+
+// The biggest difference between Task.Delay and Thread.Sleep is that 
+// Task.Delay is intended to run asynchronously. 
+// It does not make sense to use Task.Delay in synchronous code. 
+// It is a VERY bad idea to use Thread.Sleep in asynchronous code.
+-----------------------------------------------------------------------------------------
+Task.WaitAll (return void) blocks the current thread until everything has completed.
+Task.WhenAll (return Task) returns a task which represents the action of waiting until everything has completed.
+
+If you wanted to execute them in parallel, you'd have to use something like this:
+    await Task.WhenAll(t1, t2, t3);
+
+Use WhenAll because it propagates all errors at once. 
+Use await WhenAll because it propagates only the first error. 
+With the multiple awaits, you lose errors if one of the earlier awaits throws.
+
+Another important difference is that WhenAll will wait for all tasks to complete 
+even in the presence of failures (faulted or canceled tasks). 
+Awaiting manually in sequence would cause unexpected concurrency 
+because the part of your program that wants to wait will actually continue early.
+-----------------------------------------------------------------------------------------
+Perform Multiple Async Method Calls Sequentially???
+    -> They will execute sequentially.
+It's absolutely fine to have multiple await expressions in the same async method,
+    - it would be relatively useless feature otherwise.
+Basically, the method will execute synchronously until it reaches the first await 
+    where the awaitable involved hasn't already completed. 
+It will then return to the caller, having set up a continuation for the awaitable 
+    to execute the rest of the async method. 
+If execution later reaches another await expression where the awaitable hasn't already completed, 
+    a continuation is set up on that awaitable, etc.
+Each time the method "resumes" from an await, 
+    it carries on where it left off, with the same local variables etc. 
+This is achieved by the compiler building a state machine on your behalf.
+-----------------------------------------------------------------------------------------
+Sequential awaits - will not execute the operations concurrently. It will execute the first and await its completion, and only then the second.
+Task.WaitAll - execute concurrently but will wait for them synchronously (i.e. while blocking a thread).
+await Task.WhenAll - execute concurrently but will wait for them asynchronously (preferred option)
+
+public async Task<IHttpActionResult> MethodB()
+{
+    var customer = new Customer();
+
+    var getAllWidgetsTask = _widgetService.GetAllWidgets();
+    var getAllFoosTask = _fooService.GetAllFos();
+
+    await Task.WhenAll(getAllWidgetsTask, getAllFoosTask);
+
+    customer.Widgets = await getAllWidgetsTask;
+    customer.Foos = await getAllFoosTask;
+
+    return Ok(customer);
+}
+-----------------------------------------------------------------------------------------
+Task.Run(() => DoWork1()) for CPU-bound async tasks
