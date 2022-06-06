@@ -13,13 +13,17 @@ const components_data = {
 
 const buildNodesList = (data) => {
     let nodes = [];
+
+    const pushNode = (function(node) {
+        const nodeValue = Number(node);
+        if(!nodes.includes(nodeValue)) 
+            nodes.push(nodeValue);
+    });
+
     for(let node in data) {
-        const num = Number(node);
-        if(!nodes.includes(num)) nodes.push(num);
+        pushNode(node);
         for(let subNode of data[node]) {
-            const subNum = Number(subNode);
-            if(!nodes.includes(subNum)) 
-                nodes.push(subNum);
+            pushNode(subNode);
         }
     }
     return nodes;
@@ -27,22 +31,25 @@ const buildNodesList = (data) => {
 
 const countConnectedComponents = () => {
     const nodes = buildNodesList(components_data);
+    //console.log(nodes);
     let visited = new Set(); let componentCount = 0;
-    for(let node of nodes) {
+    for(let node in nodes) {
+        console.log(node);
         if(traverseFromNode(node, visited))
             componentCount++;
     }
-    console.log(componentCount);
+    return componentCount;
 }
 
 const traverseFromNode = (startNode, visited) => {
     if(visited.has(startNode)) return false;
 
     visited.add(startNode);
-
+    
     let queue = [startNode];
     while(queue.length > 0) {
         const current = queue.shift();
+        console.log(current);
         for(let neighbour of components_data[current]) {
             visited.add(neighbour);
             queue.push(neighbour);

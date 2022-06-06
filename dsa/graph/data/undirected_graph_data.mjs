@@ -1,3 +1,4 @@
+// adjacent list structure
 // {
 //     i: [ 'j', 'k' ],     
 //     j: [ 'i' ],

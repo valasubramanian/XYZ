@@ -1,5 +1,5 @@
 // directed graph without recursion
-const graph = {
+const directed_graph = {
     a : ['b', 'c'],
     b : ['d'],
     c : ['e'],
@@ -8,4 +8,4 @@ const graph = {
     f : []
 }
 
-export default graph;
+export default directed_graph;
