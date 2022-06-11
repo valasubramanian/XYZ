@@ -1,5 +1,4 @@
-msg = "hello !!!"
+msg = "Hello world !!!"
 print(msg)
 messages = msg.split()
-messages = msg.split('e')
 print(messages)
