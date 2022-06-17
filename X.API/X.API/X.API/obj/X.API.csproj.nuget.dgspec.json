@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {}
+    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {
+    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
         "projectName": "X.API",
-        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
-        "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
+        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+        "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,18 +24,19 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj"
               },
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               },
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
               },
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
               }
             }
           }
@@ -51,6 +49,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "IdentityModel": {
               "target": "Package",
@@ -107,6 +106,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.24, 3.1.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -115,24 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
+    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
         "projectName": "X.Service",
-        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
-        "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
+        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+        "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -142,15 +156,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               },
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
               },
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
               }
             }
           }
@@ -163,6 +178,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -199,29 +215,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
         "projectName": "X.Domain",
-        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
-        "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
+        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+        "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -231,6 +258,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -242,6 +270,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "IdentityModel": {
               "target": "Package",
@@ -278,29 +307,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
         "projectName": "X.Infrastructure",
-        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\obj\\",
+        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -310,9 +350,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               }
             }
           }
@@ -325,6 +366,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -361,29 +403,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
         "projectName": "XYZ.Framework",
-        "projectPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
-        "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
+        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -393,6 +446,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -404,6 +458,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Azure.Messaging.ServiceBus": {
               "target": "Package",
@@ -454,7 +509,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1611,23 +1611,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
       "projectName": "X.Domain",
-      "projectPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
-      "packagesPath": "C:\\Users\\valasubramanian.sunm\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\valasubramanian.sunm\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
+      "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+      "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\valasubramanian.sunm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1637,6 +1633,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1648,6 +1645,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "IdentityModel": {
             "target": "Package",
@@ -1684,12 +1682,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
