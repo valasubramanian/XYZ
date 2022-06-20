@@ -31,11 +31,5 @@ class Browser:
         pass
 
     def GetHistory(self):
-        return { 
-            'Url': self.session.history.Url, 
-            'Title': self.session.history.Title,
-            'Next': self.session.history.Next,
-            'Prev': self.session.history.Prev,
-            'Active': self.session.history.Active
-        }
+        return self.session.history
 

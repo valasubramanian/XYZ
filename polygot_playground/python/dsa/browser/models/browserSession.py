@@ -1,25 +1,23 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from browserPage import BrowserPage
 
 @dataclass
 class BrowserSession:
-    def __init__(self):
-        self.history = None
+    history: BrowserPage = field(default=None)
 
-    def NewPage(self, page):
+    def NewPage(self, page: BrowserPage):
+        def setActivePage(page: BrowserPage, newPage: BrowserPage):
+            if (page != None):
+                page.Active = False
+                if (page.Next != None): setActivePage(page.Next, newPage)
+                else: page.Next = newPage
+
         isRootPage = self.history == None
         if (isRootPage): self.history = page
-        else:
-            self.SetActivePage(self.history, page)
+        else: setActivePage(self.history, page)
 
-    def SetActivePage(self, page, newPage):
-        if (page != None):
-            page.Active = False
-            if (page.Next != None): self.SetActivePage(page.Next, newPage)
-            else: page.Next = newPage
-
-    def GoBack(self, to = None):      
-        def setBackPage(page):
+    def GoBack(self):      
+        def setBackPage(page: BrowserPage):
             if (page != None):
                 if (page.Next != None and page.Next.Active): 
                     page.Active = True
@@ -29,7 +27,7 @@ class BrowserSession:
         setBackPage(self.history)
 
     def GoNext(self):
-        def setNextPage(page):
+        def setNextPage(page: BrowserPage):
             if (page != None):
                 if (page.Active and page.Next != None): 
                     page.Active = False
