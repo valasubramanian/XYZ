@@ -10,7 +10,10 @@ const TextBox = (props) => {
     }, [props.value])
 
     return (
-        <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
+        <>
+            <label class="form-label">{props.label}</label>
+            <input type="text" class="form-control" value={value} onChange={(e) => setValue(e.target.value)}></input>
+        </>
     )
 }
 
