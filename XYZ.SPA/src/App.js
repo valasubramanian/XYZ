@@ -5,6 +5,7 @@ import './App.css';
 // import Home from './home/home'
 import Stocks from './stocks/stocks'
 import CreateUser from './user/create-user/createuser'
+import BuildTrain from "./train/build-train/build-train";
 
 export default function App() {
   return (
@@ -33,6 +34,9 @@ export default function App() {
                 <li className="nav-item">
                   <Link className="nav-link" to="/stocks">Stocks</Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/train/build">Build Train</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -43,6 +47,7 @@ export default function App() {
             <Route path="/user/create" name="CreateUser" component={CreateUser} />
             <Route path="/about" name="Home" component={About} />
             <Route path="/stocks" name="stocks" component={Stocks} />
+            <Route path="/train/build" name="stocks" component={BuildTrain} />
             <Route path="/" name="Home" component={Home} />
           </Switch>
         </div>

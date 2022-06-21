@@ -7,12 +7,22 @@ const TextBox = (props) => {
     useEffect(() => {
         if (value !== props.value)
             setValue(props.value)
-    }, [props.value])
+    }, [props.value]) // , [props.value]
+
+    const onChange = (e) => {
+        setValue(e.target.value)
+        props.onChange && props.onChange(e.target.value)
+    }
+
+    const onBlur = () => {
+        props.onBlur && props.onBlur()
+    }
 
     return (
         <>
-            <label class="form-label">{props.label}</label>
-            <input type="text" class="form-control" value={value} onChange={(e) => setValue(e.target.value)}></input>
+            {console.log('textbox -> ', value)}
+            {props.label && <label className="form-label">{props.label}</label>}
+            <input type="text" style={props.style} className="form-control" value={value} onChange={(e) => onChange(e)} onBlur={onBlur}></input>
         </>
     )
 }

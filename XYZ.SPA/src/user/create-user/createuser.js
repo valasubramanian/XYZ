@@ -11,8 +11,8 @@ const CreateUser = (props) => {
             <div className="mb-3 col">
                 <TextBox value="" label="Last name" />
             </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Create</button>
+            <div className="col-12">
+                <button type="submit" className="btn btn-primary">Create</button>
             </div>
         </div>
     )
