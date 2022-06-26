@@ -1,11 +1,11 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from browserPage import BrowserPage
 from browserSession import BrowserSession
 from typing import List
 
 @dataclass
 class Browser:
-    session = None
+    session: BrowserSession = field(default=None)
 
     def __init__(self):
         self.session = None

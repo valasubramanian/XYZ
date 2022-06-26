@@ -1,12 +1,15 @@
+from dataclasses import dataclass
+
+@dataclass
 class Stack:
     stackArray = []
 
-    def __init__(): pass
+    def push(self, item):
+        self.stackArray.append(item)
 
-    def push(): pass
+    def pop(self):
+        self.stackArray.pop()
 
-    def pop(): pass
-
-    def get():
-        return stackArray
+    def get(self):
+        return self.stackArray
         

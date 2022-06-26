@@ -9,14 +9,14 @@ class BrowserPage:
     Next: None
     Branches: list
 
-    def __init__(self, url: str):
+    def __init__(self, url):
         self.Url = url
         self.Title = self.GetTitle(url)
         self.Active = True
         self.Next = None
-        self.Branches = list()
+        self.Branches = []
 
-    def GetTitle(self, url: str):
+    def GetTitle(self, url):
         urlParts = url.split('.')
         return urlParts[1].capitalize()
 
