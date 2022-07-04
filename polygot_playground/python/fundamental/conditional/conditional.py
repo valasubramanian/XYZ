@@ -14,3 +14,10 @@ if "X" in ABC: print("X is there")
 elif "Y" in ABC: print("Y is there")
 elif "Z" in ABC: print("Z is there")
 else: print("XYZ is not there")
+
+liste = []
+if len(liste) == 0: 
+    liste.append(1)
+    print('liste is empty')
+else:
+    print('liste is not empty')

@@ -30,6 +30,6 @@ class Browser:
     def Close():
         pass
 
-    def GetHistory(self):
-        return self.session.history
+    def PrintHistory(self):
+        return self.session.PrintHistory()
 
