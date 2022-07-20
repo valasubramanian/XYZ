@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {}
+    "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {
+    "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+        "projectUniqueName": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
         "projectName": "X.API",
-        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
+        "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\X.API.csproj",
         "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
+        "outputPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,17 +26,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj"
               },
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               },
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
               },
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
+    "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+        "projectUniqueName": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
         "projectName": "X.Service",
-        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+        "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
         "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
+        "outputPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -158,14 +158,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               },
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
               },
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
               }
             }
           }
@@ -238,14 +238,14 @@
         }
       }
     },
-    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+    "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
         "projectName": "X.Domain",
-        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
+        "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj",
         "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
+        "outputPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -330,14 +330,14 @@
         }
       }
     },
-    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+    "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
         "projectName": "X.Infrastructure",
-        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\obj\\",
+        "outputPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -352,8 +352,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-                "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+              "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+                "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
               }
             }
           }
@@ -426,14 +426,14 @@
         }
       }
     },
-    "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+    "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
         "projectName": "XYZ.Framework",
-        "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
+        "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj",
         "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
+        "outputPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"

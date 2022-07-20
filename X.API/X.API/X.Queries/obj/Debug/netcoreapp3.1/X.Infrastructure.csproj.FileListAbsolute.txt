@@ -21,3 +21,16 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\n
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.csproj.CopyComplete
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.pdb
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\bin\Debug\netcoreapp3.1\X.Infrastructure.deps.json
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\bin\Debug\netcoreapp3.1\X.Infrastructure.dll
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\bin\Debug\netcoreapp3.1\X.Infrastructure.pdb
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\bin\Debug\netcoreapp3.1\X.Domain.dll
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\bin\Debug\netcoreapp3.1\X.Domain.pdb
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.AssemblyInfo.cs
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.csproj.CopyComplete
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.dll
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Queries\obj\Debug\netcoreapp3.1\X.Infrastructure.pdb

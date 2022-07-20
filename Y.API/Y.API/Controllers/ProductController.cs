@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace Y.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    [Authorize]
+    [Route("[controller]")]
+    //[Authorize]
     public class ProductController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -26,6 +26,7 @@ namespace Y.API.Controllers
         }
 
         [HttpGet]
+        //[Route("api/[controller]/get")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

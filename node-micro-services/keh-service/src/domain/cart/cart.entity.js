@@ -4,8 +4,9 @@ import Order from '../order/order.entity.js'
 export default class Cart {
     products = []
     removedProducts = []
+    name:any
 
-    constructor(name) {
+    constructor(name:any) {
         this.name = name
     }
 

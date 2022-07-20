@@ -26,6 +26,7 @@ namespace Y.API.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            //while(1 == 1);
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

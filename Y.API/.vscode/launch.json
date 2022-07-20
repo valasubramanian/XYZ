@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Y.API/bin/Debug/netcoreapp3.1/Y.API.dll",
+            "program": "${workspaceFolder}/Y.API/bin/Debug/net6.0/Y.API.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Y.API",
             "stopAtEntry": false,

@@ -15,3 +15,13 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\ne
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.pdb
 C:\Users\valasubramanian.sunm\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.csprojAssemblyReference.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\bin\Debug\netcoreapp3.1\X.Domain.deps.json
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\bin\Debug\netcoreapp3.1\X.Domain.dll
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\bin\Debug\netcoreapp3.1\X.Domain.pdb
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.csproj.AssemblyReference.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.AssemblyInfoInputs.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.AssemblyInfo.cs
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.csproj.CoreCompileInputs.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.dll
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\X.API\X.API\X.Domain\obj\Debug\netcoreapp3.1\X.Domain.pdb

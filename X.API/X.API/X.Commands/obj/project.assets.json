@@ -7785,11 +7785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+      "projectUniqueName": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
       "projectName": "X.Service",
-      "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
+      "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\X.Service.csproj",
       "packagesPath": "C:\\Users\\4GBZTG3.cgi\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
+      "outputPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Commands\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\4GBZTG3.cgi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7804,14 +7804,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
-              "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
+            "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj": {
+              "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Domain\\X.Domain.csproj"
             },
-            "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
-              "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
+            "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\X.API\\X.API\\X.Queries\\X.Infrastructure.csproj"
             },
-            "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
-              "projectPath": "c:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
+            "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj": {
+              "projectPath": "C:\\Users\\4GBZTG3.cgi\\Documents\\source\\repos\\XYZ\\XYZ.Framework\\XYZ.Framework\\XYZ.Framework.csproj"
             }
           }
         }

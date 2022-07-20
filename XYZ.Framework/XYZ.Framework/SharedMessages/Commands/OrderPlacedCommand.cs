@@ -2,7 +2,7 @@ using System;
 
 namespace XYZ.Framework.Azure.ServiceBus.Topics
 {
-    public class DeliveryStatusTopic : Topic
+    public class OrderPlacedCommand : Topic
     {
         
         public Guid OrderId { get; set; }

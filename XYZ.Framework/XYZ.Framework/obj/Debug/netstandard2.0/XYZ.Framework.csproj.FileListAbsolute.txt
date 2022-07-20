@@ -7,3 +7,13 @@ C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\D
 C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.csproj.CoreCompileInputs.cache
 C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.dll
 C:\Users\valasubramanian.sunm\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.pdb
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.csproj.AssemblyReference.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.AssemblyInfoInputs.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.AssemblyInfo.cs
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.csproj.CoreCompileInputs.cache
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.dll
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\obj\Debug\netstandard2.0\XYZ.Framework.pdb
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\bin\Debug\netstandard2.0\XYZ.Framework.deps.json
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\bin\Debug\netstandard2.0\XYZ.Framework.dll
+C:\Users\4GBZTG3.cgi\Documents\source\repos\XYZ\XYZ.Framework\XYZ.Framework\bin\Debug\netstandard2.0\XYZ.Framework.pdb
